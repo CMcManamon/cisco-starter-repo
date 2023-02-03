@@ -1,13 +1,11 @@
 import "./App.css";
-import Banner from "./components/banner";
-import Exhibit from "./components/exhibit";
+import Banner from "./components/Banner";
+import Exhibit from "./components/Exhibit";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Banner />
-      </header>
+      <Banner title={"Sextant"} />
       <Exhibit heading={"Heading"} children={null}></Exhibit>
     </div>
   );

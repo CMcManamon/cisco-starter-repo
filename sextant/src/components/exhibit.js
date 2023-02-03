@@ -1,3 +1,5 @@
+import "./Exhibit.css";
+
 const Exhibit = (props) => {
   const { heading, children } = props;
   return (

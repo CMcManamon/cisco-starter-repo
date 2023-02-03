@@ -1,7 +1,9 @@
-const Banner = () => {
+import "./Banner.css";
+const Banner = (props) => {
+  const { title } = props;
   return (
     <div className="banner">
-      <h1>Sextant</h1>
+      <h1>{title}</h1>
     </div>
   );
 };
