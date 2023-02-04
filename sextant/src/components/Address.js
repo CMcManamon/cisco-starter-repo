@@ -28,7 +28,7 @@ const Address = (props) => {
         }
         throw response;
       })
-      .then((data) => setAddress(method + ": " + data.ip))
+      .then((data) => setAddress(data.ip))
       .catch((error) => {
         setAddress("Error fetching IP");
         throw error;

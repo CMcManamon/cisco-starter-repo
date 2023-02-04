@@ -25,6 +25,6 @@ const Latency = () => {
     };
   }, []);
 
-  return <div className="Latency">Latency: {latency}</div>;
+  return <div className="Latency">{latency}</div>;
 };
 export default Latency;

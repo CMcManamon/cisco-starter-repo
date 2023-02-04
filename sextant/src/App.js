@@ -8,8 +8,10 @@ function App() {
   return (
     <div className="App">
       <Banner title={"Sextant"} />
-      <Exhibit heading={"IP Address"}>
+      <Exhibit heading={"IPv4 Address"}>
         <Address method="IPv4"></Address>
+      </Exhibit>
+      <Exhibit heading={"IPv6 Address"}>
         <Address method="IPv6"></Address>
       </Exhibit>
       <Exhibit heading={"Latency"}>
